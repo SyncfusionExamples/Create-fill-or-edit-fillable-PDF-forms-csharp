@@ -16,17 +16,17 @@ In this reposiory, we will explore various use cases of PDF forms and how they c
 
 Sample name | Description
 --- | ---
-[Create PDF form]() | Create a PDF form with all form fields. 
-[Fill form fields in PDF]() | Fill form fields in an existing PDF document. 
-[Modify existing PDF form]() | Modify the existing form field and its properties like bounds, text, color, border, etc. 
-[Removing form fields from an existing PDF]() | Remove form fields from an existing PDF document. 
-[Add signature field to PDF document]() | Create signature field in a new PDF document. 
-[Flattening form fields]() | Flatten the form fields in an existing PDF document. 
-[Set form fields as read only]() | Marking the PDF form as read-only. 
-[Import form fields data to PDF document]() | Importing form fields data (FDF, XFDF, JSON and XML) to PDF document. 
-[Export PDF file to FDF/XFDF/XML/JSON]() | Export FDF/XFDF/XML/JSON file from PDF document. 
-[Retain extended rights of PDF form]() | preserve extended rights when filling the form fields in PDF document. 
-[Utilizing JavaScript in PDF forms]() | Add JavaScript action to form field in PDF document. 
+[Create PDF form](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Create_PDF_form_NET) | Create a PDF form with all form fields. 
+[Fill form fields in PDF](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Fill_form_fields_in_PDF_NET) | Fill form fields in an existing PDF document. 
+[Modify existing PDF form](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Modify_form_fields_NET) | Modify the existing form field and its properties like bounds, text, color, border, etc. 
+[Removing form fields from an existing PDF](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Remove_form_fields_from_PDF_NET) | Remove form fields from an existing PDF document. 
+[Add signature field to PDF document](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Create_signature_field_in_PDF) | Create signature field in a new PDF document. 
+[Flattening form fields](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Flatten_form_fields_in_PDF) | Flatten the form fields in an existing PDF document. 
+[Set form fields as read only](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Set_ReadOnly_to_PDF_form_NET) | Marking the PDF form as read-only. 
+[Import form fields data to PDF document](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Import_form_fields_data_to_PDF) | Importing form fields data (FDF, XFDF, JSON and XML) to PDF document. 
+[Export PDF file to FDF/XFDF/XML/JSON](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Export_PDF_file_to_FDF) | Export FDF/XFDF/XML/JSON file from PDF document. 
+[Retain extended rights of PDF form](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Preserve_extended_rights_in_PDF_form) | preserve extended rights when filling the form fields in PDF document. 
+[Utilizing JavaScript in PDF forms](https://github.com/SyncfusionExamples/Create-fill-or-edit-fillable-PDF-forms-csharp/tree/master/Adding_action_to_PDF_form_field) | Add JavaScript action to form field in PDF document. 
 
 ## Create a new fillable PDF form 
 With Syncfusion's .NET PDF library, users can easily create forms (Acroforms) in PDF documents with a variety of form fields. These fields include textbox fields, combo box fields, radio button fields, list box fields, check box fields, signature fields, and button fields. 
