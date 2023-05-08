@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preserve_extended_rights_in_PDF_form", "Preserve_extended_rights_in_PDF_form\Preserve_extended_rights_in_PDF_form.csproj", "{0531BE9A-0FCA-4217-9D69-75A8AB9E5A0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0531BE9A-0FCA-4217-9D69-75A8AB9E5A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0531BE9A-0FCA-4217-9D69-75A8AB9E5A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0531BE9A-0FCA-4217-9D69-75A8AB9E5A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0531BE9A-0FCA-4217-9D69-75A8AB9E5A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D2B5107-4E8E-42C8-A7A3-D1C0628DEE10}
+	EndGlobalSection
+EndGlobal
