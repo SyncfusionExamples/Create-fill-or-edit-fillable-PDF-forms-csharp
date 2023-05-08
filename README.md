@@ -14,6 +14,20 @@ In this reposiory, we will explore various use cases of PDF forms and how they c
 * Retain extended rights of a PDF forms  
 * Utilizing JavaScript in PDF forms 
 
+Sample name | Description
+--- | ---
+[Create PDF form]() | Create a PDF form with all form fields. 
+[Fill form fields in PDF]() | Fill form fields in an existing PDF document. 
+[Modify existing PDF form]() | Modify the existing form field and its properties like bounds, text, color, border, etc. 
+[Removing form fields from an existing PDF]() | Remove form fields from an existing PDF document. 
+[Add signature field to PDF document]() | Create signature field in a new PDF document. 
+[Flattening form fields]() | Flatten the form fields in an existing PDF document. 
+[Set form fields as read only]() | Marking the PDF form as read-only. 
+[Import form fields data to PDF document]() | Importing form fields data (FDF, XFDF, JSON and XML) to PDF document. 
+[Export PDF file to FDF/XFDF/XML/JSON]() | Export FDF/XFDF/XML/JSON file from PDF document. 
+[Retain extended rights of PDF form]() | preserve extended rights when filling the form fields in PDF document. 
+[Utilizing JavaScript in PDF forms]() | Add JavaScript action to form field in PDF document. 
+
 ## Create a new fillable PDF form 
 With Syncfusion's .NET PDF library, users can easily create forms (Acroforms) in PDF documents with a variety of form fields. These fields include textbox fields, combo box fields, radio button fields, list box fields, check box fields, signature fields, and button fields. 
 
