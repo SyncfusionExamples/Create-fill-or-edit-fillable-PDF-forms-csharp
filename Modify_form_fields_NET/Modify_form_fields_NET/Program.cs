@@ -17,8 +17,9 @@ PdfLoadedForm loadedForm = loadedDocument.Form;
 PdfLoadedTextBoxField loadedTextBoxField = loadedForm.Fields[0] as PdfLoadedTextBoxField;
 RectangleF newBounds = new RectangleF(200, 80, 300, 30);
 loadedTextBoxField.Bounds = newBounds;
-loadedTextBoxField.SpellCheck = true;
-loadedTextBoxField.Text = "New text of the field.";
+loadedTextBoxField.BackColor = Color.LightYellow;
+loadedTextBoxField.BorderColor = Color.Red;
+loadedTextBoxField.Text = "John";
 
 //Create file stream.
 using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"../../../Output.pdf"), FileMode.Create, FileAccess.ReadWrite))

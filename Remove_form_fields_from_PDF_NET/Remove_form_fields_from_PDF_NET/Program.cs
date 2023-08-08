@@ -15,11 +15,11 @@ PdfLoadedDocument loadedDocument = new PdfLoadedDocument(docStream);
 PdfLoadedForm loadedForm = loadedDocument.Form;
 
 //Load the textbox field.
-PdfLoadedTextBoxField loadedTextBoxField = loadedForm.Fields[0] as PdfLoadedTextBoxField;
+PdfLoadedTextBoxField loadedTextBoxField = loadedForm.Fields[2] as PdfLoadedTextBoxField;
 //Remove the field.
 loadedForm.Fields.Remove(loadedTextBoxField);
-//Remove the field at index 0.
-loadedForm.Fields.RemoveAt(0);
+//Remove the field at index 1.
+loadedForm.Fields.RemoveAt(1);
 
 //Create file stream.
 using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"../../../Ouput.pdf"), FileMode.Create, FileAccess.ReadWrite))

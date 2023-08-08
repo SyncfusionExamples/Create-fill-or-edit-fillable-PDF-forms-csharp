@@ -13,8 +13,8 @@ PdfLoadedForm loadedForm = loadedDocument.Form;
 //Create memory stream.
 MemoryStream ms = new MemoryStream();
 //Load the FDF file. 
-FileStream stream1 = new FileStream(Path.GetFullPath("../../../Export.fdf"), FileMode.Create, FileAccess.ReadWrite);
+FileStream stream1 = new FileStream(Path.GetFullPath("../../../Export.xml"), FileMode.Create, FileAccess.ReadWrite);
 //Export the existing PDF document to FDF file. 
-loadedForm.ExportData(stream1, DataFormat.Fdf, "AcroForm1");
+loadedForm.ExportData(stream1, DataFormat.Xml, "AcroForm1");
 //Close the document.
 loadedDocument.Close(true);
